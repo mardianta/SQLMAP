@@ -9,3 +9,4 @@
 
 Reference : 
 1. https://sangtopihitam.blogspot.com/2020/02/tutorial-install-sqlmap-dan-cara.html
+2. https://hackertarget.com/sqlmap-tutorial/
