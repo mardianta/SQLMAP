@@ -10,6 +10,7 @@
 
 # SQL Injection
 1. ' or 1=1 limit 1 -- -+
+2. ' or 1=1 LIMIT 1 OFFSET 2 -- -+
 
 Reference : 
 1. https://sangtopihitam.blogspot.com/2020/02/tutorial-install-sqlmap-dan-cara.html
